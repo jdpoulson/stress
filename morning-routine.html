@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Morning Routine</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2 class="panel panel-heading">Morning Routine</h2>
+      </div>
+      <form id="morning-routine">
+        <div class="form-group">
+          <p class="panel panel-body">What warning signs of being negatively are you affected by stress?</p>
+          <input type="checkbox" name="stress" value="sleep">Loss of sleep.<br>
+          <input type="checkbox" name="stress" value="overwhelmed">Feeling overwhelmed.<br>
+          <input type="checkbox" name="stress" value="video-games">Playing video games.<br>
+          <input type="checkbox" name="stress" value="upset-stomach">Upset Stomach.<br>
+          <input type="checkbox" name="stress" value="decision-difficulty">Difficulty in making decisions.<br>
+          <input type="checkbox" name="stress" value="tiredness">Constant tiredness.<br>
+        </div>
+        <div class="form-group">
+          <p class="panel panel-body">What health symptoms are linked to high-stress?</p>
+          <input type="checkbox" name="high-stress" value="blood-pressure">High blood pressure.<br>
+          <input type="checkbox" name="high-stress" value="anxiety">Anxiety.<br>
+          <input type="checkbox" name="high-stress" value="autism">Having autism.<br>
+          <input type="checkbox" name="high-stress" value="hunger">Not enough food.<br>
+          <input type="checkbox" name="high-stress" value="hunched">Hunch or stooped posture.<br>
+          <input type="checkbox" name="high-stress" value="fever">Having a fever.<br>
+        </div>
+        <div class="form-group">
+          <p class="panel panel-body">What recommended coping methods can deal with stress?</p>
+          <input type="checkbox" name="coping-method" value="meditation">Meditate.<br>
+          <input type="checkbox" name="coping-method" value="time-management">Manage your time.<br>
+          <input type="checkbox" name="coping-method" value="cat-petting">Pet a cat.<br>
+          <input type="checkbox" name="coping-method" value="get-to-work-on-time">Getting to work on time.<br>
+          <input type="checkbox" name="coping-method" value="eat-healthy-food">Eating healthy food.<br>
+          <input type="checkbox" name="coping-method" value="medication">Taking your medication.<br>
+        </div>
+        <button type="submit">Submit Survey</button>
+      </form>
+      <span id="stress-responses">
+        <p><b>You are affected by these warning signs of being negatively.</b></p>
+      </span>
+      <br>
+      <span id="high-stress-responses">
+        <p><b>You are linked to these health symptoms.</b></p>
+      </span>
+      <br>
+      <span id="coping-method-responses">
+        <p><b>You can do these methods to deal with stress.</b></p>
+      </span>
+      <div class="stress">
+        <p>no stress</p>
+      </div>
+      <div class="stress2">
+        <p>low stress</p>
+      </div>
+      <div class="stress3">
+        <p>high stress</p>
+      </div>
+    </div>
+  </body>
+</html>
