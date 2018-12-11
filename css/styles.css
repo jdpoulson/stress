@@ -13,3 +13,6 @@
 .stress, .stress2, .stress3 {
   display: none;
 }
+p {
+  color: firebrick;
+}

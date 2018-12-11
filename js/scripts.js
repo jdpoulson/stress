@@ -22,6 +22,7 @@ $(document).ready(function(){
     });
     $('#morning-routine').hide();
     console.log(stress)
+    
     if (stress <= 1) {
       $(".stress").show();
     }
